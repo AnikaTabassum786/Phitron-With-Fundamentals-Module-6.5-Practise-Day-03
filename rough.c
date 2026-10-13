@@ -1,8 +1,22 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main()
+{
+    int x, y;
 
-    
-    
-     return 0;
+    scanf("%d %d", &x, &y);
+
+    // printf("%d ", x);
+    // printf("%d" , y);
+
+    if(x%y==0 || y%x==0){
+        printf("YES");
+    }
+    else{
+        printf("NO");
+    }
+
+
+
+    return 0;
 }
