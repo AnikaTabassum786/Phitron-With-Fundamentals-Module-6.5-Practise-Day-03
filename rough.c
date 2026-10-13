@@ -2,21 +2,15 @@
 
 int main()
 {
-    int x, y;
 
-    scanf("%d %d", &x, &y);
+   int n;
+   scanf("%d",&n);
 
-    // printf("%d ", x);
-    // printf("%d" , y);
-
-    if(x%y==0 || y%x==0){
-        printf("YES");
-    }
-    else{
-        printf("NO");
-    }
-
-
-
+     for(int j=1; j<=n; j++){
+        for(int i=1; i<=j ;i++){
+           printf("%d ",i);
+        }
+        printf("\n");
+     }
     return 0;
 }
